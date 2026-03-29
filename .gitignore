@@ -1,0 +1,55 @@
+# Build output
+*.exe
+*.obj
+*.o
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.map
+build/
+bin/
+out/
+
+# Compiler / linker intermediates
+*.d
+*.su
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.aps
+ipch/
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# CMake (if added later)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# stb single-file libraries — keep the impl .c files, ignore generated caches
+# (nothing to ignore here; stb has no runtime artifacts)
+
+# OS-generated
+.DS_Store
